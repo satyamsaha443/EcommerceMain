@@ -41,8 +41,11 @@ body {
     border: none;
     padding: 10px;
     margin: 10px;
-    box-shadow: #0000001a 3px 3px 20px 0px;
-    background: linear-gradient(90deg, rgba(219,228,231,1) 1%, rgba(227,237,238,1) 100%);    font-family: 'Montserrat', sans-serif;
+    box-shadow: #000000 0px 0px 5px 0px;
+    border-radius: 30px;
+    margin: 10px;
+    background: linear-gradient(90deg, rgba(219,228,231,1) 1%, rgba(227,237,238,1) 100%);
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,10 +66,12 @@ body {
     margin: 0px 10px 10px 10px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
+    background-color: #969c9e2b;
+    box-shadow: 0px 0px 30px 0px #d4dddf;
 }
 
 .prod:hover {
@@ -253,11 +258,11 @@ body {
     text-decoration: none;
 }
 
-.prod {
+/* .prod {
     box-shadow: #0000001a 3px 3px 20px 0px;
     border-radius: 10px;
     margin: 10px;
-}
+} */
 
 .prod:hover {
     transform: scale(1.03);
